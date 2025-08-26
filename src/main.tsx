@@ -1,6 +1,6 @@
 ﻿import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';   // now points to App.tsx
+import App from './App.tsx';   // points to App.tsx
 
 ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -9,4 +9,5 @@ ReactDOM.createRoot(
     <App />
   </React.StrictMode>
 );
+
 
