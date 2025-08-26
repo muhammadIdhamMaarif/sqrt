@@ -1,23 +1,3 @@
-﻿/*
-Beautiful Frontend for mp-sqrt backend
-
-Dependencies (install in your React project):
-  - react (v18+)
-  - framer-motion
-  - lucide-react
-  - recharts
-  - tailwindcss (project must be configured for Tailwind)
-
-How to use:
-  - Put this file as `src/App.jsx` in a Create-React-App / Vite React project.
-  - Ensure Tailwind is configured and index.css imports Tailwind directives.
-  - `npm install framer-motion lucide-react recharts`
-  - `npm start` to develop or `npm run build` to produce a static bundle.
-
-This component talks to the backend at `/api/sqrt` (same origin). If you host frontend separately
-set the `API_BASE` constant below (or enable CORS in your Flask backend).
-*/
-
 import React, { useState, useMemo, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Play, DownloadCloud, RefreshCcw, Copy, Sparkles, Zap } from "lucide-react";
@@ -30,7 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const API_BASE = ""; // empty => same origin. Set to e.g. "https://your-backend.example.com" if needed
+const API_BASE = "";
 
 function shortNumber(s, maxLen = 30) {
   if (!s) return "";
@@ -39,7 +19,6 @@ function shortNumber(s, maxLen = 30) {
 }
 
 function niceLabel(v) {
-  // show large numbers cleanly
   try {
     const n = Number(v);
     if (!Number.isFinite(n)) return shortNumber(String(v));
@@ -457,3 +436,4 @@ function AlertIcon() {
     </svg>
   );
 }
+
