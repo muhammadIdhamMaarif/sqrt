@@ -6,9 +6,9 @@
 
 ## TL;DR
 
-Program bisa dipakai pada terminal dengan menginstall kode dan dependensi, atau dipakai di website. Namun program pada website menggunakan Python yang kode bisa dilihat pada `app.py`. Website bisa diakses [disini](https://sqrt.estellastudiodev.com)
+Program bisa dipakai pada terminal dengan menginstall kode dan dependensi, atau dipakai di website. Namun program pada website menggunakan Python yang kode bisa dilihat pada `app.py`. Website bisa diakses <a href="https://sqrt.estellastudiodev.com" target="_blank">disini</a>
 
-[sqrt.estellastudiodev.com](https://sqrt.estellastudiodev.com)
+<a href="https://sqrt.estellastudiodev.com" target="_blank">sqrt.estellastudiodev.com</a>
 
 > Program akan berjalan lebih cepat jika menggunakan C++
 
