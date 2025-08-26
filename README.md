@@ -1,3 +1,3 @@
-# Akses di [Sini](sqrt.estellastudiodev.com)
+# Akses di [Sini](https://sqrt.estellastudiodev.com)
 
-[sqrt.estellastudiodev.com](sqrt.estellastudiodev.com)
+[sqrt.estellastudiodev.com](https://sqrt.estellastudiodev.com)
